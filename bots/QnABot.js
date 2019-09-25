@@ -9,7 +9,7 @@ class QnABot extends ActivityHandler {
         super();
         //Mstr
 const request = require('request-promise');
-const apiRoot = 'http://buaw12817.corp.microstrategy.com:8080/MicroStrategyLibrary/api';
+const apiRoot = 'http://fdb20550.ngrok.io:8080/MicroStrategyLibrary/api';
 var attributeList
 var availableObjects
 var metric
